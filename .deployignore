@@ -1,0 +1,16 @@
+.circleci
+.github
+node_modules
+src
+tests
+
+.editorconfig
+.phpcs.xml.dist
+.phpunit.result.cache
+composer.json
+composer.lock
+package-lock.json
+package.json
+phpstan.neon
+phpunit.xml.dist
+webpack.config.js

@@ -1,0 +1,26 @@
+includes:
+  # sets up PHPStan for WP and stubs WP core
+  - vendor/szepeviktor/phpstan-wordpress/extension.neon
+
+parameters:
+  # start at 0 and work up - https://phpstan.org/user-guide/rule-levels
+  level: 0
+  # disable checking for ReflectionClass<Foo> and allow ReflectionClass
+  checkGenericClassInNonGenericObjectType: false
+  # don't require property typehints if they can be inferred from the constructor
+  inferPrivatePropertyTypeFromConstructor: true
+  # allows for PHP runtime changes before PHPStan runs
+  bootstrapFiles:
+    - inc/constants.php
+    - inc/asset-settings.php
+  # paths to analyse
+  paths:
+    - plugin.php
+    - inc/
+  # directories to include without analysing
+  scanDirectories:
+    - vendor
+  # ignore specific errors that can't be fixed
+  ignoreErrors:
+    # Uses func_get_args()
+    # - '#^Function apply_filters(_ref_array)? invoked with [34567] parameters, 2 required\.$#'

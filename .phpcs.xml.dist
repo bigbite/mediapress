@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<ruleset name="Sample i18n Plugin Rules">
+	<rule ref="./vendor/bigbite/phpcs-config/BigBite" />
+</ruleset>

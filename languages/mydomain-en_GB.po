@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sample i18n Plugin 1.0.0-alpha.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sample-i18n-plugin\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-23T12:25:29+00:00\n"
+"PO-Revision-Date: 2024-02-23 12:35+0000\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: mydomain\n"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "Sample i18n Plugin"
+msgstr "Sample i18n Plugin [en_GB]"
+
+#. Description of the plugin
+#: plugin.php
+msgid "Sample plugin to demonstrate i18n in WordPress"
+msgstr "Sample plugin to demonstrate i18n in WordPress [en_GB]"
+
+#. Author of the plugin
+#: plugin.php
+msgid "Big Bite"
+msgstr "Big Bite® [en_GB]"
+
+#: inc/post-types/class-sample.php:36
+msgctxt "Post Type General Name"
+msgid "Samples"
+msgstr "Samples [en_GB]"
+
+#: inc/post-types/class-sample.php:37
+msgctxt "Post Type Singular Name"
+msgid "Sample"
+msgstr ""
+
+#: inc/post-types/class-sample.php:38
+msgid "Samples"
+msgstr "Samples [translated]"
+
+#: inc/post-types/class-sample.php:39
+msgid "Sample"
+msgstr "Sample [en_GB]"
+
+#: inc/post-types/class-sample.php:40
+msgid "Sample Archives"
+msgstr "Sample Archives [en_GB]"
+
+#: inc/post-types/class-sample.php:41
+msgid "Sample Attributes"
+msgstr "Sample Attributes [en_GB]"
+
+#: inc/post-types/class-sample.php:42
+msgid "Parent Sample:"
+msgstr "Parent Sample [en_GB]:"
+
+#: inc/post-types/class-sample.php:43
+msgid "All Samples"
+msgstr "All Samples [en_GB]"
+
+#: inc/post-types/class-sample.php:44
+msgid "Add New Sample"
+msgstr "Add New Sample [en_GB]"
+
+#: inc/post-types/class-sample.php:45
+msgid "Add New"
+msgstr "Add New [en_GB]"
+
+#: inc/post-types/class-sample.php:46
+msgid "New Sample"
+msgstr "New Sample [en_GB]"
+
+#: inc/post-types/class-sample.php:47
+msgid "Edit Sample"
+msgstr "Edit Sample [en_GB]"
+
+#: inc/post-types/class-sample.php:48
+msgid "Update Sample"
+msgstr "Update Sample [en_GB]"
+
+#: inc/post-types/class-sample.php:49
+msgid "View Sample"
+msgstr "View Sample [en_GB]"
+
+#: inc/post-types/class-sample.php:50
+msgid "View Samples"
+msgstr "View Samples [en_GB]"
+
+#: inc/post-types/class-sample.php:51
+msgid "Search Samples"
+msgstr "Search Samples [en_GB]"
+
+#: inc/post-types/class-sample.php:52
+msgid "No Samples found"
+msgstr "No Samples found [en_GB]"
+
+#: inc/post-types/class-sample.php:53
+msgid "No Samples found in Trash"
+msgstr "No Samples found in Trash [en_GB]"
+
+#: inc/post-types/class-sample.php:54
+msgid "Featured Image"
+msgstr "Featured Image [en_GB]"
+
+#: inc/post-types/class-sample.php:55
+msgid "Set featured image"
+msgstr "Set featured image [en_GB]"
+
+#: inc/post-types/class-sample.php:56
+msgid "Remove featured image"
+msgstr "Remove featured image [en_GB]"
+
+#: inc/post-types/class-sample.php:57
+msgid "Use as featured image"
+msgstr "Use as featured image [en_GB]"
+
+#: inc/post-types/class-sample.php:58
+msgid "Insert into Sample"
+msgstr "Insert into Sample [en_GB]"
+
+#: inc/post-types/class-sample.php:59
+msgid "Uploaded to this Sample"
+msgstr "Uploaded to this Sample [en_GB]"
+
+#: inc/post-types/class-sample.php:60
+msgid "Samples list"
+msgstr "Samples list [en_GB]"
+
+#: inc/post-types/class-sample.php:61
+msgid "Samples list navigation"
+msgstr "Samples list navigation [en_GB]"
+
+#: inc/post-types/class-sample.php:62
+msgid "Filter Samples"
+msgstr "Filter Samples [en_GB]"
+
+#: inc/setup.php:41
+msgid "A plain string"
+msgstr "A plain string [en_GB]"
+
+#. translators: this string has an accompanying comment
+#: inc/setup.php:44
+msgid "A plain string with explanatory comment"
+msgstr "A plain string with explanatory comment [en_GB]"
+
+#: inc/setup.php:46
+msgctxt "context explainer"
+msgid "A string with context"
+msgstr "A string with context [en_GB]"
+
+#: inc/setup.php:52
+msgid "Singular string"
+msgid_plural "Plural string"
+msgstr[0] "Singular string [en_GB]"
+msgstr[1] "Plural string [en_GB]"
+
+#: inc/setup.php:59
+msgctxt "context explainer"
+msgid "Singular string with context"
+msgid_plural "Plural string with context"
+msgstr[0] "Singular string with context [en_GB]"
+msgstr[1] "Plural string with context [en_GB]"
+
+#. translators: %s: explain origin of placholder here
+#: inc/setup.php:85
+msgid "A string with a sprintf placeholder %s"
+msgstr "A string with a sprintf placeholder %s [en_GB]"
+
+#. translators: %1$s: explain placeholder a, %2$s: explain placeholder b
+#: inc/setup.php:94
+msgid "A string with two sprintf placeholders %1$s, %2$s"
+msgstr "A string with two sprintf placeholders %1$s, %2$s [en_GB]"
+
+#. translators: %d: explain what the placeholder is
+#: inc/setup.php:101
+msgid "Singular string with numeric placeholder %d"
+msgid_plural "Plural string with numeric placeholder %d"
+msgstr[0] "Singular string with numeric placeholder %d [en_GB]"
+msgstr[1] "Plural string with numeric paceholder %d [en_GB]"
+
+#: dist/scripts/editor.js:24
+msgid "This is a JavaScript i18n string"
+msgstr "This is a JavaScript i18n string [en_GB]"
+
+#: inc/frontend/after-body-tag.php:10
+msgid "Sample translatable string"
+msgstr "Sample translatable string [en_GB]"

@@ -1,0 +1,21 @@
+{
+  "name": "@big-bite/sample-i18n-plugin",
+  "description": "",
+  "version": "1.0.0-alpha.1",
+  "author": "Big Bite",
+  "prettier": "@bigbite/build-tools/configs/prettier",
+  "scripts": {
+    "build:dev": "build-tools build --once",
+    "build:prod": "build-tools build --once --production",
+    "watch:dev": "build-tools build",
+    "watch:prod": "build-tools build --production"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.0"
+  },
+  "devDependencies": {
+    "@bigbite/build-tools": "^1.2.3",
+    "@wordpress/data": "^9.1.0",
+    "@wordpress/plugins": "^5.8.0"
+  }
+}
